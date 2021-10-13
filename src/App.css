@@ -1,0 +1,55 @@
+/* body{
+  background:rgb(158, 68, 83);
+} */
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+
+/* .app-header{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap');
+
+.banner{
+  background-image:url('images/doc_old.jpg');
+  background-size:cover;
+  height:500px;
+  width:auto;
+}
+
+@include media-breakpoint-up(sm) { 
+  .banner{
+    background-image:url('images/doc_old.jpg');
+    background-size:100% 100%;
+    height:500px;
+    width:auto;
+  }
+  .Banner-div{
+    height:10vh;
+    text-align:center;
+  }
+  .banner-container{
+    margin-top:-20px;
+    font-size:24px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .banner{
+    background-image:url('images/doc_old.jpg');
+    background-size:100% 100%;
+    height:500px;
+    width:auto;
+  }
+  .banner-container{
+    margin-top:-20px;
+    font-size:24px;
+  }
+}

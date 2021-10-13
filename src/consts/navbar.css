@@ -1,0 +1,23 @@
+.button {
+    /* border-radius:20px; */
+    /* background-color:#556222; */
+    background-color:#365282;
+    height:50px;
+}
+
+.Bannertext{
+    font-size:48px;
+}
+
+/* .Banner-div{
+    height:100vh;
+    margin-top:20vh;
+    margin-left:-40px;
+} */
+
+@include media-breakpoint-up(sm) { 
+    .Bannertext{
+        font-size:48px;
+        height:100vh;
+    }
+}
